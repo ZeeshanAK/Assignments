@@ -20,7 +20,6 @@ You got an internship in a game developing company. They gave you first task of 
 
 ### Solution Guidelines: 
 
-Solution Guidelines: 
 1. Before developing this assignment understand and practice following topics (array, link list, stack implementation using link list and queue implementation using circular array).
 2. Use stack data structure to save information of players. Each player will represent a node which will contain player name and scores. 
 3. Use queue data structure to save dice numbers and get random number from dice. Use circular array to implement queue. 
