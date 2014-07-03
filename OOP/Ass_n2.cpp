@@ -105,6 +105,6 @@ public:
 int main()
 {
     cout<<"Hello world, I am an example code for Inheritance and Aggregation in C++!";
-	cout<<"\nHello world, I am a new line added from the Work PC!";
+	//Removed the extra line that was inserted here! 
 	
 }
