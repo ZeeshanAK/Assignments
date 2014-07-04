@@ -106,5 +106,6 @@ int main()
 {
     cout<<"Hello world, I am an example code for Inheritance and Aggregation in C++!";
 	cout<<"\nHello world, I am a new line added from the Work PC!";
+	cout<<"\nHello world, I am a second line added from the Work PC!";
 	
 }
