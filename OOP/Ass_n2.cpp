@@ -106,4 +106,5 @@ int main()
 {
     cout<<"Hello world, I am an example code for Inheritance and Aggregation in C++!";
 		//Approved the removal. 
+		//Thank you!
 }
