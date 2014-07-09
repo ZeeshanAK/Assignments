@@ -33,5 +33,5 @@ int main()
     if (pal == 1)
         cout<< "\n\nThe string is a Palindrome!" ;
     else
-        cout<< "\n\nThe string is NOT Palindrome!" ;
+        cout<< "\n\nThe string is NOT a Palindrome!" ;
 }
