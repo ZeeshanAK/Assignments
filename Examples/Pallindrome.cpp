@@ -1,4 +1,4 @@
-
+//This program takes a string from the user and tells if it's a Palindrome or not
 #include<iostream>
 using namespace std;
 
