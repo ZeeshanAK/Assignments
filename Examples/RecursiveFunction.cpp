@@ -6,11 +6,11 @@ void recursiveFun()
 {
     FunCounter++;
     if( FunCounter <=5)
-    cout << "Recursive call number: " << FunCounter << endl;
-    return recursiveFun();
-
+    {
+        cout << "Recursive call number: " << FunCounter << endl;
+        return recursiveFun();
+    }
 }
-
 
 int main()
 {
