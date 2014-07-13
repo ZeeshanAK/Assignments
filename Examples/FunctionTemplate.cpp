@@ -22,4 +22,9 @@ int main()
     cin >> num1 >> num2 >> num3;
     cout << "The maximum integer value is: " << maximum (num1, num2, num3);
 
+    double d1, d2, d3;
+    cout << "\n\nEnter three double values;" << endl;
+    cin >> d1 >> d2 >> d3;
+    cout << "The maximum double value is: " << maximum (d1, d2, d3);
+
 }
