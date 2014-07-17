@@ -22,14 +22,10 @@ int main()
         }
         else
         {
-        cout << n * 10 << " - " << ( n * 10 )+ 9 << ": ";
+            cout << n * 10 << " - " << ( n * 10 )+ 9 << ": ";
             cin >> ++studentGrade[n];
         }
-
-
-
     }
-
 
 
     cout << "\nThe bar chart is shown below:" << endl;
