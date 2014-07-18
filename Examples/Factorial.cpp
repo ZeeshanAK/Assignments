@@ -1,3 +1,7 @@
+/*
+This program calculates the factorial of a given number.
+*/
+
 #include<iostream>
 using namespace std;
 

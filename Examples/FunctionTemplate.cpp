@@ -1,7 +1,11 @@
+/*
+Example for function templates!
+*/
+
 #include<iostream>
 using namespace std;
 
-template <class M>
+template <class M> //Here M is the variable type which will be replaced with the type we call it from
 M maximum (M value1, M value2, M value3)
 {
     M maximumValue = value1;

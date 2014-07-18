@@ -8,7 +8,7 @@ void recursiveFun()
     if( FunCounter <=5)
     {
         cout << "Recursive call number: " << FunCounter << endl;
-        return recursiveFun();
+        return recursiveFun(); //Here the FucCounter is calling itself.
     }
 }
 

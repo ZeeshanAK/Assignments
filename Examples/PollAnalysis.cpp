@@ -1,3 +1,7 @@
+/*
+This program reads the integers from an array and calculates its frequency.
+*/
+
 #include<iostream>
 using namespace std;
 
