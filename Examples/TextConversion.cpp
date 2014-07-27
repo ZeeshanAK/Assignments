@@ -13,25 +13,31 @@ int main()
     int choice;     //To hold user input.
     cin >> choice;
 
-    cout << "\nConverted text = " ;
-    if(choice == 1) // if user inputs 1 convert it to UPPER CASE.
+    switch(choice)
     {
+    case 1: // if user inputs 1 convert it to UPPER CASE.
+
         for (int i = 0; i <= text.length(); i++)
         {
             if( islower(text[i]) )
                 text[i] = toupper( text[i] );
         }
-        cout << text << endl;
-    }
-    else if(choice == 2)// if user inputs 2 convert it to lower case.
-    {
+        cout << "\nConverted text = " << text << endl;
+        break;
+
+
+    case 2: // if user inputs 2 convert it to lower case.
+
 
         for (int i = 0; i <= text.length(); i++)
         {
             if( isupper(text[i]) )
                 text[i] = tolower( text[i] );
         }
-        cout << text << endl;
-    }
+        cout << "\nConverted text = " << text << endl;
+        break;
 
+    default:
+        cout << "\nPlease enter 1 or 2. Thanks!" << endl;
+    }
 }
