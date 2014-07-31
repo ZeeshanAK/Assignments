@@ -3,10 +3,10 @@ using namespace std;
 
 void swap(int *num1, int * num2)
 {
-    int temp;
-    temp = *num2;
-    *num2 = *num1;
-    *num1 = temp;
+        int temp;
+        temp = *num1;
+        *num1 = *num2;
+        *num2 = temp;
 }
 
 
@@ -23,7 +23,7 @@ int main()
     //comparing two elements
     for (int i = 0; i < 10; i++)
     {
-       for (int j = 1; j < 10; j++ )
+       for (int j = i + 1; j < 10; j++ )
         {
             if( nums[i] > nums[j])
             {
