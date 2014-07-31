@@ -23,7 +23,7 @@ int main()
     //comparing two elements
     for (int i = 0; i < 10; i++)
     {
-        if( nums[i+1] > nums[i])
+        if( nums[i] > nums[i+1])
         {
             swap(&nums[i+1], &nums[i]);
         }
