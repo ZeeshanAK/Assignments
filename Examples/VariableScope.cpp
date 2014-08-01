@@ -14,6 +14,9 @@ public:
         cout << "Value of Global X = " << ::x << endl;
         cout << "Value of function's X = " << x << endl;
         cout << "Value of Class's X = " << test::x;
+
+        // Check how do I access main's variable in a class function.
+        cout << "Value of Class's X = " << main()::x;
     }
 
 private:
