@@ -96,7 +96,6 @@ void generateSecretNumber(int level)
 void guessSecretNumber(int tries)
 {
     int i = 1; //To be used in loop for number of tries
-
     while ( i <= tries)
     {
         cin >> guessNumber;
@@ -112,7 +111,7 @@ void guessSecretNumber(int tries)
         }
         else if  (guessNumber == secretNumber)
         {
-            cout<<"Congratulations!...You won!"<<endl;
+            cout<<"Congratulations! You won!"<<endl;
             break;
         }
         i++;
